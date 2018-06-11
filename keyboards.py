@@ -7,8 +7,8 @@ bot = telebot.TeleBot(token)
 
 def keyboard_vvod_adresa(msg, command):
     markup = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
-    itembtn1 = types.KeyboardButton('Избраный 1')
-    itembtn2 = types.KeyboardButton('Избраный  2')
+    itembtn1 = types.KeyboardButton('Избраный адрес 1')
+    itembtn2 = types.KeyboardButton('Избраный адрес 2')
     itembtn3 = types.KeyboardButton('Избраный адрес 3')
     itembtn4 = types.KeyboardButton('Избраный адрес 4')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
